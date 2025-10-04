@@ -1,0 +1,73 @@
+.navBar ul{
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px 0 rgba(226, 224, 224, 0.665);
+    background-color: #191818;
+  }
+  
+  .navBar ul li{
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    /* background-color: aliceblue; */
+  }
+  .logo-img{
+    padding-top: 2px;
+  }
+
+  .box{
+    background-color: #191818;
+  }
+  .heading{
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(143, 159, 173);
+  }
+  .para{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+  }
+  .play{
+    padding: 5px;
+  }
+  .btn{
+    background-color: white;
+  }
+  .container{
+    position: absolute;
+    transform: translate(-50%,15%);
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 20px;
+    border-radius: 22px;
+  }
+  .center{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+  }
+  .counter-div{
+    margin-top: 12px;
+  }
+  .back{
+    border: 2px solid rgb(55, 113, 201);
+
+  }
+  .btn-op{
+    border: 1px solid white;
+  }
+
+@media screen and (max-width: 755px) {
+  .navBar{
+    display: none;
+  }
+}
